@@ -31,7 +31,6 @@ function parOuImpar() {
      }else{
         answer.textContent =  "Resposta: " + number + " é ímpar";
      }
-
 }
 
 var btExibir = document.getElementById("btExibir");
