@@ -91,5 +91,57 @@ h1 {
     background-color:#647885;
 }
 
+/* SECTION */
+
+.section-about {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito', sans-serif;
+    background-color: #000000;
+    color: #dfdbdb;
+    justify-content: center;
+    height: 90vh;
+    padding: 16px;
+    text-align: center;
+    background: linear-gradient(0deg, rgb(10, 10, 10) 0%, rgba(44, 43, 43, 0.709) 61%);
+}
+
+.section-about-text {
+    font-size: 24px;
+    padding: 16px;
+    width: 40%;
+    margin: 0 auto;
+}
+
+
+/* SIBERIA */ 
+
+.section-siberia{
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    width: 40%;
+    align-items: center;
+    margin: 70px auto;
+}
+
+.siberia  {
+    width: 70%;
+}
+
+.siberia-text-container {
+    display: block;
+    border-left: 8px solid #829dad;
+}
+
+.siberia-text  {
+    font-size: 22px;
+    margin-left: 12px;
+}
+
+.siberia-subtitle   {
+    font-size: 16px;
+    margin-left: 12px;
+}
+
 
 
